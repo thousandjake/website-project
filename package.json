@@ -1,0 +1,14 @@
+{
+  "name": "website-project",
+  "version": "0.0.1",
+  "description": "personal website",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jake thousand thousandjake@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}
