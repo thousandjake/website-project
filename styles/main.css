@@ -1,0 +1,19 @@
+html {
+  background: url(background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.profile-image{
+  border : 4px solid #D91434;
+  width : 200px;
+}
+
+.experience-section{
+  border : 4px solid #14D9B9;
+  display : inline-block;
+    width : 50%;
+}

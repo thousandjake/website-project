@@ -1,12 +1,12 @@
 var express = require('express');
 var app = express();
 
-app.get('/', function (req, res) {
-  res.send('Hello World!');
-});
+app.use(express.static('static'));
+app.use(express.static('styles'));
+app.use(express.static('src'));
 
-app.get('/jake', function(req, res){
-  var path = __dirname+"/src/index.html";
+app.get('/', function(req, res){
+  var path = __dirname+"/static/index.html";
   res.sendFile(path);
 });
 
