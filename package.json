@@ -4,7 +4,7 @@
   "description": "personal website",
   "main": "web.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"node web.js"
   },
   "author": "jake thousand thousandjake@gmail.com",
   "license": "ISC",
