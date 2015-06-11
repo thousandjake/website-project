@@ -4,11 +4,11 @@
   "description": "personal website",
   "main": "web.js",
   "scripts": {
-    "start":"node web.js"
+    "start": "node web.js"
   },
   "author": "jake thousand thousandjake@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.12.3"
+    "express": "^4.12.4"
   }
 }
